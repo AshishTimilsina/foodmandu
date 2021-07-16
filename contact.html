@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <title>Foodmandu :Food Delivery Service</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(pic1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .name-first {
+            height: 23px;
+            width: 271px;
+            border-radius: 10px;
+            margin-top: 126px;
+            margin-right: 416px;
+        }
+        
+        .Address-first {
+            height: 23px;
+            width: 271px;
+            border-radius: 10px;
+            margin-top: 11px;
+            margin-right: 416px;
+        }
+        
+        .number-first {
+            height: 23px;
+            width: 271px;
+            border-radius: 10px;
+            margin-top: 11px;
+            margin-right: 417px;
+        }
+        
+        .email-first {
+            height: 23px;
+            width: 271px;
+            border-radius: 10px;
+            margin-top: 11px;
+            margin-right: 417px;
+        }
+        
+        .btn {
+            position: relative;
+            left: 556px;
+            margin-top: 8px;
+            border-radius: 10px;
+            height: 25px;
+            width: 65px;
+            background-color: black;
+            color: white;
+        }
+        
+        .btn:hover {
+            background-color: red;
+            height: 30px;
+            width: 70px;
+            color: beige;
+        }
+        
+        textarea {
+            height: 23px;
+            width: 271px;
+            border-radius: 10px;
+            margin-top: 11px;
+            margin-right: 417px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <input type="text" name="fullname" class="name-first" placeholder="Enter your full name">
+
+        <input type="text" name="Address" class="Address-first" placeholder="Enter your Address">
+
+        <input type="number" name="number" class="number-first" placeholder="Enter your Phone number">
+
+        <input type="text" name="email" class="email-first" placeholder="Enter your Email">
+
+        <textarea placeholder="Food Query"></textarea>
+    </div>
+    <button class="btn">Submit</button>
+</body>
+
+</html>
